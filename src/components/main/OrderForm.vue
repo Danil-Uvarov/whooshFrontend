@@ -65,8 +65,8 @@
 </template>
 <script setup lang="ts">
   import Tooltip from './Tooltip.vue'
-
   import { ref } from 'vue'
+  
   const currentTab = ref(0)
   const changeTab = (index: number) => {
     currentTab.value = index

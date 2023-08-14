@@ -38,7 +38,6 @@
 </template>
 <script setup lang="ts">
   import { Swiper, SwiperSlide } from 'swiper/vue'
-
   import PartnersButton from './buttons/PartnersButton.vue'
   import { ref } from 'vue'
 
@@ -48,16 +47,13 @@
     }
     return partners[index].image
   }
-
   const active = ref<number | null>(null)
   const hovered = (index: number) => {
     active.value = index
   }
-
   const noHovered = () => {
     active.value = null
   }
-
   const partners = [
     {
       image: '/image/partner-alva.png',
