@@ -4,7 +4,10 @@
       <h2 class="form__title">Send a Parcel</h2>
       <div class="form__tooltip-img-wrapper">
         <img src="/image/tooltip.png" class="form__tooltip-img" />
-        <Tooltip class="form__tooltip-active" />
+        <Tooltip
+          class="form__tooltip-active"
+          :tooltip-order-form="tooltipOrderForm"
+        />
       </div>
     </div>
     <nav class="form__tabs-block tabs">
@@ -66,7 +69,7 @@
 <script setup lang="ts">
   import Tooltip from './Tooltip.vue'
   import { ref } from 'vue'
-  
+
   const currentTab = ref(0)
   const changeTab = (index: number) => {
     currentTab.value = index
@@ -85,6 +88,8 @@
       text: 'over 130lb',
     },
   ]
+  const tooltipOrderForm =
+    'A commission is a piece of work that someone is asked to do and is paid'
 </script>
 
 <style scoped>
@@ -107,7 +112,6 @@
   }
 
   .form__title {
-    font-family: 'Intro Regular';
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -224,7 +228,6 @@
   }
 
   .location__title {
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
@@ -266,7 +269,7 @@
     background-color: rgba(43, 107, 243, 1);
     color: #ffff;
     padding: 8px 0px;
-    font-family: 'Intro Regular';
+
     font-weight: 400;
     font-size: 18px;
   }

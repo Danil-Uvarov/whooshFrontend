@@ -28,7 +28,7 @@
         </span>
       </p>
       <button class="description__button" @click="isActive = !isActive">
-        <img src="../../public/image/description-button.png" alt="" />
+        <img src="/image/description-button.png" alt="" />
       </button>
     </div>
   </section>
@@ -49,6 +49,7 @@
   .description__text-wrapper {
     display: flex;
     flex-direction: column;
+    color: rgba(102, 102, 102, 0.7);
   }
 
   .description__text {
@@ -61,7 +62,6 @@
   .description__text p {
     font-weight: 400;
     font-size: 16px;
-    color: rgba(102, 102, 102, 1);
   }
 
   .description__button {

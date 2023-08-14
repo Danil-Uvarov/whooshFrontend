@@ -21,7 +21,6 @@
     background-color: #fff;
     padding: 0px 50px;
     position: absolute;
-    margin-left: auto;
     margin-right: auto;
     top: -14px;
     left: 50%;

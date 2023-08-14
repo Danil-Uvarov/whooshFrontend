@@ -45,7 +45,6 @@
 
   .info__title {
     margin-top: 98px;
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -71,7 +70,6 @@
   }
 
   .row__item {
-    box-sizing: border-box;
     padding: 23px 24px 20px 24px;
     max-width: 300px;
     width: 100%;
@@ -81,7 +79,6 @@
   }
 
   .item__title {
-    font-family: 'Intro Regular';
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -140,50 +137,13 @@
       gap: 32px;
     }
 
-    .row__item {
-      box-sizing: border-box;
-      padding: 23px 24px 20px 24px;
-      max-width: 300px;
-      width: 100%;
-      background-color: rgba(194, 210, 244, 0.2);
-      border: 1px solid rgba(183, 198, 231, 1);
-      border-radius: 8px;
-    }
-
-    .item__title {
-      font-family: 'Intro Regular';
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 32px;
-    }
-
     .item__images-courier {
       display: flex;
     }
 
     .item__img-route {
       margin-top: 17px;
-
       box-shadow: 16px;
-    }
-
-    .item__img {
-      margin-top: 17px;
-      max-width: 80px;
-      max-height: 80px;
-      border-radius: 100%;
-      padding: 21px;
-      background-color: #fff;
-      box-shadow: 0px 12px 20px 3px rgba(43, 107, 243, 0.16);
-    }
-
-    .item__description {
-      max-width: 250px;
-      margin-top: 40px;
-      font-weight: 400;
-      font-size: 16px;
-      text-align: left;
-      color: rgba(102, 102, 102, 1);
     }
   }
 </style>

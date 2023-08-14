@@ -21,26 +21,28 @@
             <h3 class="navigation__title">Menu</h3>
             <div class="navigation__link-line" />
             <ul class="navigation__list">
-              <li class="navigation__link">About company</li>
-              <li class="navigation__link">Contact</li>
-              <li class="navigation__link">Rules</li>
-              <li class="navigation__link">FAQ</li>
-              <li class="navigation__link">Reviews</li>
-              <li class="navigation__link">Cargo transportation</li>
-              <li class="navigation__link">Tariffs</li>
+              <li class="navigation__link"><a href="">About company</a></li>
+              <li class="navigation__link"><a href="">Contact</a></li>
+              <li class="navigation__link"><a href="">Rules</a></li>
+              <li class="navigation__link"><a href="">FAQ</a></li>
+              <li class="navigation__link"><a href="">Reviews</a></li>
+              <li class="navigation__link">
+                <a href="">Cargo transportation</a>
+              </li>
+              <li class="navigation__link"><a href="">Tariffs</a></li>
             </ul>
           </div>
           <div class="navigation__services">
             <h3 class="navigation__title">Services</h3>
             <div class="navigation__link-line" />
             <ul class="navigation__list">
-              <li class="navigation__link">Online stores</li>
-              <li class="navigation__link">Legal entity</li>
-              <li class="navigation__link">API Integration</li>
-              <li class="navigation__link">Contract</li>
-              <li class="navigation__link">Jobs</li>
-              <li class="navigation__link">Courier job</li>
-              <li class="navigation__link">The blog</li>
+              <li class="navigation__link"><a href="">Online stores</a></li>
+              <li class="navigation__link"><a href="">Legal entity</a></li>
+              <li class="navigation__link"><a href="">API Integration</a></li>
+              <li class="navigation__link"><a href="">Contract</a></li>
+              <li class="navigation__link"><a href="">Jobs</a></li>
+              <li class="navigation__link"><a href="">Courier job</a></li>
+              <li class="navigation__link"><a href="">The blog</a></li>
             </ul>
           </div>
         </nav>
@@ -134,7 +136,6 @@
   }
 
   .description__title {
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -175,7 +176,6 @@
   }
 
   .navigation__title {
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -203,6 +203,10 @@
     font-size: 14px;
     line-height: 32px;
   }
+  .navigation__link a {
+    color: rgba(29, 37, 60, 0.7);
+    text-decoration: none;
+  }
   .footer__contacts {
     display: flex;
     flex-direction: column;
@@ -210,7 +214,6 @@
     max-width: 232px;
   }
   .contacts__title {
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -223,7 +226,6 @@
   }
   .contacts__number {
     margin-top: 22px;
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
@@ -325,18 +327,19 @@
     }
 
     .footer__navigation {
+      width: 100%;
       margin-top: 32px;
       display: flex;
       justify-content: space-between;
     }
 
     .footer__contacts {
+      width: 100%;
+      max-width: 100%;
       margin-top: 42px;
       display: flex;
       flex-direction: column;
       align-items: start;
-      width: 100%;
-      max-width: 100%;
     }
 
     .contacts__socials {

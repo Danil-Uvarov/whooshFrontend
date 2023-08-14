@@ -21,7 +21,11 @@
       </div>
       <nav class="burger__navbar-block navbar">
         <ul class="navbar__list">
-          <li v-for="item in navbarItems" class="navbar__link">
+          <li
+            v-for="(item, index) in navbarItems"
+            :key="index"
+            class="navbar__link"
+          >
             <a href="">{{ item }}</a>
           </li>
         </ul>

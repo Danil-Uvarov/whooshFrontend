@@ -1,6 +1,6 @@
 <template>
   <section class="intro__body">
-    <img src="image/intro-city.png" alt="" class="intro__bacground-img-city" />
+    <img src="/image/intro-city.png" alt="" class="intro__bacground-img-city" />
     <h2 class="intro__title">What we do</h2>
     <h4 class="intro__subtitle">
       Express courier service in the city. We are a reliable logistics partner
@@ -67,7 +67,6 @@
 
   .intro__title {
     margin-top: 74px;
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -116,14 +115,12 @@
 
   .item__title {
     margin-top: 31px;
-    font-family: 'Intro Regular';
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
   }
 
   .item__title-link {
-    font-family: 'Intro Regular';
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -145,12 +142,11 @@
     background-color: rgba(255, 221, 45, 1);
     border-radius: 32px;
     border: none;
-    font-family: 'Intro Regular';
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     align-items: center;
-    white-space: none;
+    white-space: nowrap;
   }
 
   @media (max-width: 1100px) {
@@ -179,9 +175,6 @@
     }
     .intro__bacground-img-city {
       display: none;
-    }
-    .intro__button-yellow {
-      font-size: 17px;
     }
   }
 </style>

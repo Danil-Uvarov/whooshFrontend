@@ -1,12 +1,15 @@
 <template>
   <div class="tooltip">
     <div class="tooltip-img-active">i</div>
-    <span class="tollip-text"
-      >A commission is a piece of work that someone is asked to do and is paid
-    </span>
+    <span class="tooltip-text">{{ tooltipOrderForm }} </span>
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  interface props {
+    tooltipOrderForm: string
+  }
+  defineProps<props>()
+</script>
 <style scoped>
   .tooltip {
     justify-content: center;
@@ -31,7 +34,7 @@
     right: 19px;
   }
 
-  .tollip-text {
+  .tooltip-text {
     padding: 8px 16px;
     background-color: #fff;
     font-weight: 400;

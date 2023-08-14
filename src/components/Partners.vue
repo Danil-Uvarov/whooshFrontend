@@ -113,7 +113,6 @@
 
   .parters__title {
     white-space: nowrap;
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -153,7 +152,6 @@
 
     .parters__title {
       white-space: nowrap;
-      font-family: 'Intro Bold';
       font-weight: 700;
       font-size: 40px;
       line-height: 48px;

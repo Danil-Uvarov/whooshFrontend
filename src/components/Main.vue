@@ -49,7 +49,6 @@
 </script>
 <style scoped>
   .main-body {
-    background-repeat: no-repeat;
     background: url('/image/main-bacground.png') no-repeat center bottom;
     background-color: #f1f4fc;
     padding: 66px 32px 32px 103px;
@@ -65,7 +64,6 @@
   }
 
   .info__title {
-    font-family: 'Intro Bold';
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -81,7 +79,6 @@
 
   .info__button {
     margin-top: 30px;
-    font-family: 'Intro Regular';
     font-weight: 400;
     font-size: 18px;
     background-color: transparent;
@@ -94,7 +91,6 @@
   }
 
   .video__title {
-    font-family: 'Intro Regular';
     font-size: 22px;
     line-height: 32px;
   }
@@ -106,15 +102,11 @@
   }
 
   .video__pagging {
-  }
-
-  .pagging {
     width: 100%;
     display: flex;
     align-items: center;
     gap: 16px;
     margin-top: 17px;
-    display: none;
   }
 
   .pagging__img-active {
@@ -144,7 +136,6 @@
   }
 
   .tracking__title {
-    font-family: 'Intro Regular';
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -179,9 +170,6 @@
 
   @media (max-width: 1000px) {
     .main-body {
-      background: url('/image/main-bacground-city.png') no-repeat center bottom
-        18%;
-      background-color: #f1f4fc;
       padding: 32px 16px 55px 16px;
       display: flex;
       flex-direction: column;
@@ -213,6 +201,9 @@
     }
 
     .main__video-block {
+    }
+    .video__pagging {
+      display: none;
     }
 
     .pagging {

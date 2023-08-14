@@ -1,25 +1,12 @@
 <template>
-  <button class="partners__button-blcock button">
-    <img src="image/partners-button.png" alt="" class="button__img" />
-    <span class="button__text" :style="{ active: isActive }" @mouseenter="style"
-      >Let's collaborate</span
-    >
+  <button class="partners__button-block button">
+    <img src="/image/partners-button.png" alt="" class="button__img" />
+    <span class="button__text">Let's collaborate</span>
   </button>
 </template>
-<script setup lang="ts">
-  import { ref } from 'vue'
-
-  const isActive = ref(0)
-  const style = () => {
-    isActive.value = 1
-  }
-</script>
+<script setup lang="ts"></script>
 <style scoped>
-  .active {
-    background-color: red;
-  }
-
-  .partners__button-blcock {
+  .partners__button-block {
     white-space: nowrap;
     display: flex;
     align-items: center;
