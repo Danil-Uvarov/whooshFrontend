@@ -116,7 +116,7 @@
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
-    padding: 85px 130px 56px 103px;
+    padding: 85px 0 56px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
