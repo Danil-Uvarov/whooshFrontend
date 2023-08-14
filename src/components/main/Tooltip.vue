@@ -1,14 +1,13 @@
 <template>
   <div class="tooltip">
     <div class="tooltip-img-active">i</div>
-    <span class="tooltip-text">{{ tooltipOrderForm }} </span>
+    <span class="tooltip-text">{{ text }} </span>
   </div>
 </template>
 <script setup lang="ts">
-  interface props {
-    tooltipOrderForm: string
-  }
-  defineProps<props>()
+  defineProps<{
+    text: string
+  }>()
 </script>
 <style scoped>
   .tooltip {

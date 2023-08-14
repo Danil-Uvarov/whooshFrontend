@@ -4,10 +4,7 @@
       <h2 class="form__title">Send a Parcel</h2>
       <div class="form__tooltip-img-wrapper">
         <img src="/image/tooltip.png" class="form__tooltip-img" />
-        <Tooltip
-          class="form__tooltip-active"
-          :tooltip-order-form="tooltipOrderForm"
-        />
+        <Tooltip class="form__tooltip-active" :text="text" />
       </div>
     </div>
     <nav class="form__tabs-block tabs">
@@ -88,7 +85,7 @@
       text: 'over 130lb',
     },
   ]
-  const tooltipOrderForm =
+  const text =
     'A commission is a piece of work that someone is asked to do and is paid'
 </script>
 
