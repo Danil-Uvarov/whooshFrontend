@@ -116,7 +116,7 @@
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
-    padding: 85px 0 56px 0;
+    padding: 85px 16px 56px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,6 +195,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    white-space: nowrap;
   }
   .navigation__link {
     list-style: none;
@@ -282,7 +283,7 @@
     width: 100%;
     margin-top: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   .secondary__copyright {
@@ -309,7 +310,7 @@
   .footer__logo-phone {
     display: none;
   }
-  @media (max-width: 1200px) {
+  @media (max-width: 1000px) {
     .footer__wrapper {
       width: 100%;
       max-width: 360px;
