@@ -44,6 +44,7 @@
   }
 
   .info__title {
+    font-family: 'Intro-bold';
     margin-top: 98px;
     font-weight: 700;
     font-size: 40px;
@@ -79,6 +80,7 @@
   }
 
   .item__title {
+    font-family: 'Intro-regular';
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -116,10 +118,14 @@
   @media (max-width: 1000px) {
     .info-body {
       padding-bottom: 48px;
+      max-width: 328px;
+      margin: 0 auto;
     }
 
     .info__title {
-      margin: 54px 16px 0px 16px;
+      margin: 54px 0px 0px 0px;
+      font-size: 32px;
+      line-height: 32px;
     }
     .info__subtitle {
       margin-top: 11px;

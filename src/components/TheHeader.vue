@@ -46,9 +46,10 @@
   }
 
   .header__wrapper {
+    margin: 0 auto;
+    max-width: 1231px;
     padding: 0px 32px;
     display: flex;
-    justify-content: center;
     align-items: center;
   }
 
@@ -154,14 +155,17 @@
 
   @media (max-width: 1000px) {
     .header {
+      padding: 21px 16px;
     }
-
     .header__wrapper {
       display: none;
     }
 
     .header__burger {
+      max-width: 328px;
+      margin: 0 auto;
       display: flex;
+      z-index: 2;
     }
   }
 </style>

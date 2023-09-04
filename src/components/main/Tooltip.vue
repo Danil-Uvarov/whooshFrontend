@@ -16,9 +16,7 @@
     right: -51px;
     top: -16px;
     position: absolute;
-    border: 1px dashed rgba(151, 71, 255, 1);
-    text-align: center;
-    width: 295px;
+    width: 252px;
     height: 174px;
     z-index: 2;
   }
@@ -39,5 +37,7 @@
     font-weight: 400;
     font-size: 14px;
     color: rgba(29, 37, 60, 1);
+    border: 1px solid rgba(183, 198, 231, 1);
+    box-shadow: 1px 16px 16px rgba(73, 99, 176, 0.2);
   }
 </style>

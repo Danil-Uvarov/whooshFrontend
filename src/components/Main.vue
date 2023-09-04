@@ -1,44 +1,54 @@
 <template>
   <section class="main-body">
-    <div class="main__left-block">
-      <div class="main__info info">
-        <h2 class="info__title">Our service started work in New York</h2>
-        <p class="info__text">
-          We make delivery exactly at the time you need - we can start to
-          fulfill the order a few minutes after it arrives, or we can deliver on
-          a specific day and hour.
-        </p>
-        <button class="info__button">
-          Read more
-          <img src="/image/info-button.png" alt="" class="info__button-image" />
-        </button>
-      </div>
-      <div class="main__video-block video">
-        <h3 class="video__title">How it works</h3>
-        <img src="/image/Video.png" alt="" class="video-img" />
-        <div class="video__pagging pagging">
-          <img
-            src="/image/video-pagging-blue.png"
-            alt=""
-            class="pagging__img-active"
-          />
-          <img src="/image/video-pagging.png" alt="" class="pagging__img" />
-          <img src="/image/video-pagging.png" alt="" class="pagging__img" />
-          <img src="/image/video-pagging.png" alt="" class="pagging__img" />
+    <div class="main-wrapper">
+      <div class="main__left-block">
+        <div class="main__info info">
+          <h2 class="info__title">Our service started work in New York</h2>
+          <p class="info__text">
+            We make delivery exactly at the time you need - we can start to
+            fulfill the order a few minutes after it arrives, or we can deliver
+            on a specific day and hour.
+          </p>
+          <button class="info__button">
+            Read more
+            <img
+              src="/image/info-button.png"
+              alt=""
+              class="info__button-image"
+            />
+          </button>
+        </div>
+        <div class="main__video-block video">
+          <h3 class="video__title">How it works</h3>
+          <img src="/image/Video.png" alt="" class="video-img" />
+          <div class="video__pagging pagging">
+            <img
+              src="/image/video-pagging-blue.png"
+              alt=""
+              class="pagging__img-active"
+            />
+            <img src="/image/video-pagging.png" alt="" class="pagging__img" />
+            <img src="/image/video-pagging.png" alt="" class="pagging__img" />
+            <img src="/image/video-pagging.png" alt="" class="pagging__img" />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="main__right-block">
-      <OrderForm class="order-form" />
-      <div class="main__tracking tracking">
-        <h3 class="tracking__title">Track a package</h3>
-        <div class="tracking__input-wrapper">
-          <input type="text" placeholder="Enter code" class="tracking-input" />
-          <img
-            src="/image/tracking-loupe.png"
-            alt=""
-            class="tracking__loupe-img"
-          />
+      <div class="main__right-block">
+        <OrderForm class="order-form" />
+        <div class="main__tracking tracking">
+          <h3 class="tracking__title">Track a package</h3>
+          <div class="tracking__input-wrapper">
+            <input
+              type="text"
+              placeholder="Enter code"
+              class="tracking-input"
+            />
+            <img
+              src="/image/tracking-loupe.png"
+              alt=""
+              class="tracking__loupe-img"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -52,6 +62,10 @@
     background: url('/image/main-bacground.png') no-repeat center bottom;
     background-color: #f1f4fc;
     padding: 66px 32px 32px 103px;
+  }
+  .main-wrapper {
+    max-width: 1231px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
   }
@@ -64,6 +78,7 @@
   }
 
   .info__title {
+    font-family: 'Intro-bold';
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -78,6 +93,7 @@
   }
 
   .info__button {
+    font-family: 'Intro-Regular';
     margin-top: 30px;
     font-weight: 400;
     font-size: 18px;
@@ -91,6 +107,7 @@
   }
 
   .video__title {
+    font-family: 'Intro-Regular';
     font-size: 22px;
     line-height: 32px;
   }
@@ -136,6 +153,7 @@
   }
 
   .tracking__title {
+    font-family: 'Intro-regular';
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -171,6 +189,13 @@
   @media (max-width: 1000px) {
     .main-body {
       padding: 32px 16px 55px 16px;
+      background: url('/image/main-bacground-city.png') no-repeat center bottom
+        218px;
+
+      background-color: #f1f4fc;
+    }
+    .main-wrapper {
+      max-width: 328px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -186,6 +211,11 @@
     .main__video-block {
       margin-top: 37px;
     }
+    .info__title {
+      max-width: 225px;
+      font-size: 24px;
+      line-height: 32px;
+    }
     .video-img {
       margin-top: 17px;
     }
@@ -194,7 +224,7 @@
     }
 
     .main__tracking {
-      margin-top: 72px;
+      margin-top: 32px;
       background-color: rgba(255, 221, 45, 1);
       padding: 23px 16px 24px 16px;
       border-radius: 8px;

@@ -109,6 +109,7 @@
   }
 
   .form__title {
+    font-family: 'Intro-Regular';
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -225,6 +226,7 @@
   }
 
   .location__title {
+    font-family: 'Intro-bold';
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
@@ -259,6 +261,7 @@
   }
 
   .form__open {
+    font-family: 'Intro-regular';
     margin-top: 40px;
     width: 100%;
     border-radius: 32px;
@@ -286,6 +289,9 @@
     display: block;
   }
   @media (max-width: 1000px) {
+    .order-form {
+      padding: 39px 16px 24px 16px;
+    }
     .tubs-text {
       display: none;
     }

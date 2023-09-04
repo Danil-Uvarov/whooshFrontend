@@ -1,19 +1,19 @@
 @font-face {
-  font-family: "Intro";
-  font-weight: 300;
-  src: url('./assets/fonts/IntroBook.ttf');
-}
-
-@font-face {
-  font-family: "Intro";
+  font-family: "Intro-book";
   font-weight: 400;
-  src: url('./assets/fonts/intro_regular.ttf');
+  src: url('./assets/fonts/Intro-Book.ttf');
 }
 
 @font-face {
-  font-family: "Intro";
+  font-family: "Intro-regular";
+  font-weight: 400;
+  src: url('./assets/fonts/Intro-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Intro-bold";
   font-weight: 700;
-  src: url('./assets/fonts/intro_bold.ttf');
+  src: url('./assets/fonts/Intro-Bold.ttf');
 }
 
 
@@ -21,7 +21,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Intro';
+  font-family: 'Intro-book';
   box-sizing: border-box;
 }
 

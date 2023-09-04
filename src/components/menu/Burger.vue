@@ -53,7 +53,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 21px 16px;
   }
 
   .burger__img-profile {
@@ -220,6 +219,7 @@
   }
 
   .burger-button {
+    font-family: 'Intro-regular';
     margin-top: 220px;
     text-align: center;
     font-weight: 400;

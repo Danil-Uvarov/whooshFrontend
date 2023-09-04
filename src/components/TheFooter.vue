@@ -136,6 +136,7 @@
   }
 
   .description__title {
+    font-family: 'Intro-bold';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -149,6 +150,7 @@
   .description__image {
     width: 100%;
     max-width: 44px;
+    max-height: 45px;
   }
   .description__text {
     width: 100%;
@@ -163,19 +165,18 @@
     gap: 69px;
   }
   .navigation__menu {
-    width: 100%;
-    max-width: 200px;
+    width: 200px;
     display: flex;
     flex-direction: column;
   }
   .navigation__services {
-    width: 100%;
-    max-width: 200px;
+    width: 200px;
     display: flex;
     flex-direction: column;
   }
 
   .navigation__title {
+    font-family: 'Intro-bold';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -214,6 +215,7 @@
     max-width: 232px;
   }
   .contacts__title {
+    font-family: 'Intro-bold';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -225,6 +227,7 @@
     background-color: rgba(183, 198, 231, 1);
   }
   .contacts__number {
+    font-family: 'Intro-bold';
     margin-top: 22px;
     font-weight: 700;
     font-size: 24px;
@@ -249,7 +252,7 @@
     gap: 12px;
   }
   .contacts__socials {
-    margin-top: 68px;
+    margin-top: 58px;
     display: flex;
     align-items: center;
     justify-content: space-between;

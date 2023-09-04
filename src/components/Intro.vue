@@ -66,6 +66,7 @@
   }
 
   .intro__title {
+    font-family: 'Intro-bold';
     margin-top: 74px;
     font-weight: 700;
     font-size: 40px;
@@ -114,6 +115,7 @@
   }
 
   .item__title {
+    font-family: 'Intro-regular';
     margin-top: 31px;
     font-weight: 400;
     font-size: 22px;
@@ -135,6 +137,7 @@
   }
 
   .intro__button-yellow {
+    font-family: 'Intro-regular';
     width: 100%;
     max-width: 298px;
     margin-top: 36px;

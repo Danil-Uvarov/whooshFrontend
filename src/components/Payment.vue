@@ -71,6 +71,7 @@
   }
 
   .payment__title {
+    font-family: 'Intro-bold';
     width: 100%;
     white-space: nowrap;
     font-weight: 700;
